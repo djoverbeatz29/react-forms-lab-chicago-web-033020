@@ -1,11 +1,11 @@
 import React from "react";
 
 export default class LoginForm extends React.Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //   };
-  // }
+  constructor() {
+    super();
+    this.state = {
+    };
+  }
 
   handleUsernameChange = (e) => {
     this.setState({
